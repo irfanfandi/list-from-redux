@@ -1,0 +1,44 @@
+$main-bg-color: #a6d2cf;
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrap {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 100%;
+    padding: 26px 32px 108px 31px;
+    max-width: 393px;
+    min-height: 80vh;
+    background-color: $main-bg-color;
+  }
+}
+
+.table {
+  color: white;
+  align-items: center;
+  width: 100%;
+  .table-header {
+    background-color: #2c5855;
+  }
+  td {
+    padding: 5px;
+  }
+}
+
+.card-monthly {
+  display: flex;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #40444c;
+  margin-bottom: 10px;
+}
